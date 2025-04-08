@@ -28,7 +28,8 @@
         "window.restoreWindows": "preserve",
         "workbench.editorAssociations": {
           "*.md": "vscode.markdown.preview.editor"
-        }
+        },
+        "python.languageServer": "None"
       },
       "extensions": [
         "McCarter.start-git-bash",
