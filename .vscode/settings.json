@@ -9,6 +9,8 @@
           "mathematic.vscode-pdf": true,
           "*": false
         },
+	"extensions.ignoreRecommendations": true,
+        "unwantedRecommendations": ["ms-python.vscode-python-envs"],
 	"files.autoSave": "onFocusChange",
 	"editor.formatOnPaste": false,
 	"editor.formatOnSave": false,
