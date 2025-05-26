@@ -22,5 +22,13 @@
 	},
 	"editor.defaultFormatter":  null,
 	"editor.formatOnType": false,
-        "python.languageServer": "None"
+        "python.languageServer": "None",
+	"workbench.colorTheme": "Default Dark+",
+	"workbench.iconTheme": "vscode-icons",
+	"github.copilot.enable": {
+		"python": false,
+		"html": false,
+		"css": false,
+		"SQL": false
+	}
 }
