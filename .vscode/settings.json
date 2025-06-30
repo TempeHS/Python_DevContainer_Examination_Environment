@@ -7,6 +7,7 @@
           "ms-python.debugpy": true,
           "mechatroner.rainbow-csv": true,
           "mathematic.vscode-pdf": true,
+	  "ms-python.vscode-python-envs": true,
           "*": false
         },
 	"extensions.ignoreRecommendations": true,
@@ -30,5 +31,6 @@
 		"html": false,
 		"css": false,
 		"SQL": false
-	}
+	},
+        "chat.agent.enabled": false
 }
