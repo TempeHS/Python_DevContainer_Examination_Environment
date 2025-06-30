@@ -1,12 +1,15 @@
 {
   "name": "Python Development Container",
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "image": "mcr.microsoft.com/devcontainers/python:1-3.12-bookworm",
+  "features": {
+    "ghcr.io/devcontainers/features/python:1": {}
+  },
   "hostRequirements": {
     "cpus": 4
   },
   "waitFor": "onCreateCommand",
-  "updateContentCommand": "pip install -r requirements.txt",
-  "postCreateCommand": "",
+  "updateContentCommand": "",
+  "postCreateCommand": "pip install -r requirements.txt && apt-get clean && rm -rf /root/.cache/pip",
   "postAttachCommand": {},
   "customizations": {
     "vscode": {
@@ -19,6 +22,7 @@
           "ms-python.debugpy": true,
           "mechatroner.rainbow-csv": true,
           "mathematic.vscode-pdf": true,
+          "tal7aouy.icons": true,
           "*": false
         },
         "files.autoSave": "onFocusChange",
@@ -40,7 +44,8 @@
       		"html": false,
       		"css": false,
       		"SQL": false
-      	}
+      	},
+        "chat.agent.enabled": false
       },
       "extensions": [
         "McCarter.start-git-bash",
@@ -49,7 +54,8 @@
         "GitHub.codespaces",
         "ms-python.debugpy",
         "mechatroner.rainbow-csv",
-        "mathematic.vscode-pdf"
+        "mathematic.vscode-pdf",
+        "tal7aouy.icons"
       ]
     }
   }
