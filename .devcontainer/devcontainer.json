@@ -23,7 +23,6 @@
           "mechatroner.rainbow-csv": true,
           "mathematic.vscode-pdf": true,
           "tal7aouy.icons": true,
-          "ms-python.vscode-python-envs": true,
           "*": false
         },
         "files.autoSave": "onFocusChange",
