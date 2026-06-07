@@ -1,6 +1,6 @@
 {
   "name": "Python Development Container",
-  "image": "mcr.microsoft.com/devcontainers/python:0-3.11-bullseye",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11-bookworm",
   "features": {
     "ghcr.io/devcontainers-contrib/features/coverage-py:2": {}
   },
@@ -55,7 +55,9 @@
         "ms-python.debugpy",
         "mechatroner.rainbow-csv",
         "mathematic.vscode-pdf",
-        "tal7aouy.icons"
+        "yusifaliyevpro.vscicons",
+        "streetsidesoftware.code-spell-checker",
+      "streetsidesoftware.code-spell-checker-british-english"
       ]
     }
   }
