@@ -1,15 +1,4 @@
 {
-	"extensions.allowed": {
-          "ms-python.python": true,
-          "McCarter.start-git-bash": true,
-          "oderwat.indent-rainbow": true,
-          "GitHub.codespaces": true,
-          "ms-python.debugpy": true,
-          "mechatroner.rainbow-csv": true,
-          "mathematic.vscode-pdf": true,
-	  "ms-python.vscode-python-envs": true,
-          "*": false
-        },
 	"extensions.ignoreRecommendations": true,
         "unwantedRecommendations": ["ms-python.vscode-python-envs"],
 	"files.autoSave": "onFocusChange",
