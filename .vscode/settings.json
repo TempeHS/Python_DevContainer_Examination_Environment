@@ -14,7 +14,6 @@
 	"editor.formatOnType": false,
         "python.languageServer": "None",
 	"workbench.colorTheme": "Dark+",
-	"workbench.iconTheme": "vscode-icons",
 	"github.copilot.enable": {
 		"python": false,
 		"html": false,
