@@ -20,7 +20,7 @@
           "ms-python.debugpy": true,
           "mechatroner.rainbow-csv": true,
           "mathematic.vscode-pdf": true,
-          "tal7aouy.icons": true,
+          "yusifaliyevpro.vscicons": true,
           "*": false
         },
         "files.autoSave": "onFocusChange",
@@ -53,9 +53,7 @@
         "ms-python.debugpy",
         "mechatroner.rainbow-csv",
         "mathematic.vscode-pdf",
-        "yusifaliyevpro.vscicons",
-        "streetsidesoftware.code-spell-checker",
-      "streetsidesoftware.code-spell-checker-british-english"
+        "yusifaliyevpro.vscicons"
       ]
     }
   }
